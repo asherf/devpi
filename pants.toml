@@ -1,5 +1,5 @@
 [GLOBAL]
-pants_version = "2.7.0rc5"
+pants_version = "2.7.0"
 backend_packages = ["pants.backend.python"]
 
 
@@ -8,3 +8,7 @@ backend_packages = ["pants.backend.python"]
 
 [python-infer]
 string_imports = true
+
+
+[source]
+marker_filenames = ["pyproject.toml", "setup.py", "tox.ini", "setup.cfg"]
